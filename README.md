@@ -57,6 +57,23 @@ To run this project, you will need:
     python manage.py runserver
     ```
 
+### How to Run
+
+1. Go to terminal and run this:
+
+```python
+python manage.py shell
+```
+2. Then, in the shell:
+
+```python
+from campaign.views import send_campaign
+send_campaign(campaign_id)
+```
+Replace campaign_id with the ID of the campaign you want to send.
+
+### Unsubscribe a User
+To unsubscribe a user, navigate to http://127.0.0.1:8000/unsubscribe/email, replacing email with the email address of the subscriber you want to unsubscribe.
 ### Usage
 
 1. Navigate to the Django admin panel (usually http://127.0.0.1:8000/admin) and log in.
@@ -66,5 +83,13 @@ To run this project, you will need:
 3. Fill in the required details such as the subject, preview text, article URL, HTML content, and plain text content, and save the campaign.
 
 4. To send the campaign, select the campaign(s) from the list and choose the "Run selected campaigns" action.
+
+## Screenshots
+
+![Admin Page](https://github.com/Gaurang105/EmailCampaignManager/blob/master/screenshots/admin_page.png?raw=true)
+
+![Campaign Page](https://github.com/Gaurang105/EmailCampaignManager/blob/master/screenshots/campaign_page.png?raw=true)
+
+![Subscriber Page](https://github.com/Gaurang105/EmailCampaignManager/blob/master/screenshots/subscriber_page.png?raw=true)
 
 
