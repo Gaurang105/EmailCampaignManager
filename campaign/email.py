@@ -6,7 +6,7 @@ def send_email(subject, to_email, html_content):
     email = EmailMultiAlternatives(
         subject,
         text_content,
-        'gauranggujrati11@gmail.com',
+        '<your-email-address>',
         [to_email]
     )
     email.attach_alternative(html_content, "text/html")
