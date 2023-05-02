@@ -67,4 +67,12 @@ To run this project, you will need:
 
 4. To send the campaign, select the campaign(s) from the list and choose the "Run selected campaigns" action.
 
+## Screenshots
+
+![Admin Page](https://github.com/Gaurang105/EmailCampaignManager/blob/master/screenshots/admin_page.png?raw=true)
+
+![Campaign Page](https://github.com/Gaurang105/EmailCampaignManager/blob/master/screenshots/campaign_page.png?raw=true)
+
+![Subscriber Page](https://github.com/Gaurang105/EmailCampaignManager/blob/master/screenshots/subscriber_page.png?raw=true)
+
 
